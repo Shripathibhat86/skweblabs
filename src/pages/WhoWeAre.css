@@ -1,0 +1,70 @@
+.who-we-are-page {
+  padding: 120px 0 60px;
+  min-height: calc(100vh - 80px);
+}
+
+.who-we-are-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.who-we-are-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.who-we-are-subtitle {
+  color: var(--text-secondary);
+  font-size: 1.125rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.who-we-are-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.content-block {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content-block:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.content-block h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: var(--text-primary);
+}
+
+.content-block p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .who-we-are-page {
+    padding: 100px 0 40px;
+  }
+  
+  .who-we-are-title {
+    font-size: 2.5rem;
+  }
+  
+  .content-block {
+    padding: 30px;
+  }
+}

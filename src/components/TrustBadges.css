@@ -1,0 +1,58 @@
+.trust-badges {
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--glass-border);
+  border-bottom: 1px solid var(--glass-border);
+  margin: 2rem 0;
+}
+
+.badge-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.badge-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.badge-logo {
+  font-weight: 800;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.designrush { color: #00d2ff; }
+.clutch { color: #ffffff; }
+.trustpilot { color: #ffffff; font-weight: 600; }
+.goodfirms { color: #3b82f6; }
+
+.rating {
+  background: var(--bg-card);
+  border: 1px solid var(--glass-border);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.score {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.star-icon {
+  color: #fbbf24;
+}
+
+@media (max-width: 768px) {
+  .badge-container {
+    justify-content: center;
+  }
+}
