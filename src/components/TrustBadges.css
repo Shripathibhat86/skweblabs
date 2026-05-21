@@ -54,5 +54,7 @@
 @media (max-width: 768px) {
   .badge-container {
     justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
   }
 }

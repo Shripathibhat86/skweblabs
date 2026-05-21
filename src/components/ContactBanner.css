@@ -84,8 +84,15 @@
     height: 1px;
   }
 
+  .contact-title {
+    font-size: 1.5rem;
+  }
+
   .contact-btn {
     width: 100%;
     justify-content: center;
+    font-size: 0.95rem;
+    white-space: nowrap;
+    padding: 0.75rem 1rem;
   }
 }

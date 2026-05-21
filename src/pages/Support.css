@@ -127,4 +127,8 @@
   .support-title {
     font-size: 2.5rem;
   }
+  
+  .support-content {
+    grid-template-columns: 1fr;
+  }
 }

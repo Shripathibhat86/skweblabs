@@ -67,4 +67,8 @@
   .content-block {
     padding: 30px;
   }
+  
+  .who-we-are-content {
+    grid-template-columns: 1fr;
+  }
 }
