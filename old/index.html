@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href=" ">
+<title>SK Web Labs | Website Development</title>
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="css/custom.css" rel="stylesheet">
+
+<!-- Helper Styles -->
+<link href="css/loaders.css" rel="stylesheet">
+<link href="css/swiper.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="css/nivo-lightbox.css">
+<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+<!-- Font Awesome Style -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<style>
+/* ===== NAVBAR MOBILE FIX ===== */
+@media (max-width: 991px) {
+  .navbar > .container {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+  }
+
+  .navbar-toggler {
+    order: 1;
+    margin-right: 10px;
+    flex-shrink: 0;
+  }
+
+  .navbar-brand {
+    order: 2;
+    margin-left: 0 !important;
+    margin-right: auto;
+  }
+
+  .navbar-collapse {
+    order: 3;
+    width: 100%;
+    flex-basis: 100%;
+  }
+}
+
+/* ===== CONTACT FORM STYLES ===== */
+.contact-input {
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  border-radius: 0;
+  padding: 10px 0;
+  box-shadow: none !important;
+  font-size: 16px;
+  color: #495057;
+  background-color: transparent;
+}
+.contact-input:focus {
+  border-bottom: 2px solid #3b82f6;
+  outline: none;
+}
+.contact-input::placeholder {
+  color: #adb5bd;
+}
+</style>
+</head>
+<body>
+<div class="loader loader-bg">
+  <div class="loader-inner ball-clip-rotate-pulse">
+    <div></div>
+    <div></div>
+  </div>
+</div>
+
+<!-- Top Navigation -->
+<nav class="navbar navbar-toggleable-md mb-4 top-bar navbar-static-top sps sps--abv">
+  <div class="container">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse1" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa fa-bars"></i>
+    </button>
+    <a class="navbar-brand" href="#">
+      <img src="img/SK WEB LAB Logo.png" alt="SK Web Labs" style="height: 40px; width: auto;">
+    </a>
+    <div class="collapse navbar-collapse" id="navbarCollapse1">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"> <a class="nav-link" href="#myCarousel">Home <span class="sr-only">(current)</span></a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#benefits">Services</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#about">Who We Are</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#works">Our Works</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#support">Support</a> </li>
+        <li class="nav-item"> <a class="nav-link btn btn-aqua" style="padding: 10px 20px; border-radius: 30px; margin-top: 2px;" href="https://wa.me/917022183067" target="_blank">Let's Start <i class="fa fa-whatsapp"></i></a> </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Swiper Slider ================================================== -->
+<div class="swiper-container main-slider" id="myCarousel">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide slider-bg-position" style="background:url('img/home_banner_v2.png')" data-hash="slide1">
+      <h2>Build Your Website<br>Launch with Confidence.</h2>
+    </div>
+    <div class="swiper-slide slider-bg-position" style="background:url('img/home_banner_v2.png')" data-hash="slide2">
+      <h2>Design • Develop • Deploy<br>At Best Price</h2>
+    </div>
+  </div>
+  <!-- Add Pagination -->
+  <div class="swiper-pagination"></div>
+  <!-- Add Navigation -->
+  <div class="swiper-button-prev"><i class="fa fa-chevron-left"></i></div>
+  <div class="swiper-button-next"><i class="fa fa-chevron-right"></i></div>
+</div>
+
+<!-- Benefits ================================================== -->
+<section class="service-sec" id="benefits">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="heading text-md-center text-xs-center">
+          <h2><small>One-Stop Solution</small>Build Your Website with SK Web Labs</h2>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-md-6 text-sm-center service-block"> <i class="fa fa-globe" aria-hidden="true"></i>
+            <h3>Website Development</h3>
+            <p>We provide full-stack website development services to bring your ideas to life with modern and scalable web technologies.</p>
+          </div>
+          <div class="col-md-6 text-sm-center service-block"> <i class="fa fa-rocket" aria-hidden="true"></i>
+            <h3>Deployment</h3>
+            <p>Seamless deployment processes to ensure your application goes live quickly, securely, and with zero downtime.</p>
+          </div>
+          <div class="col-md-6 text-sm-center service-block"> <i class="fa fa-line-chart" aria-hidden="true"></i>
+            <h3>SEO Optimization</h3>
+            <p>Improve your online visibility and drive organic traffic with our advanced search engine optimization strategies.</p>
+          </div>
+          <div class="col-md-6 text-sm-center service-block"> <i class="fa fa-rupee" aria-hidden="true"></i>
+            <h3>At Best Price</h3>
+            <p>Get top-tier web development and design services at highly competitive prices tailored for your business needs.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4"> <img src="img/poster.jpg" class="img-fluid" /> </div>
+    </div>
+  </div>
+</section>
+
+<!-- About ================================================== -->
+<section class="about-sec parallax-section" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h2><small>Who We Are</small>About<br>SK Web Labs</h2>
+      </div>
+      <div class="col-md-4">
+        <p>SK Web Labs is a comprehensive web design and development agency. We specialize in building custom websites tailored to meet your unique business goals. Our aim is to provide robust, visually stunning, and highly functional web solutions.</p>
+        <p>From initial design concepts to final deployment, our expert team ensures that your online presence is powerful and effective. We offer a one-stop solution for all your digital needs.</p>
+      </div>
+      <div class="col-md-4">
+        <p>Our core services encompass Website Development, seamless Deployment, and advanced SEO Optimization to help your business rank higher and reach a broader audience.</p>
+        <p>Launch with confidence and achieve your digital goals at the best price with SK Web Labs.</p>
+        <p><a href="https://skweblabs.in/" class="btn btn-transparent-white btn-capsul">Visit Our Website</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OUR WORKS ================================================== -->
+<section class="blog-sec" id="works">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="heading text-md-center text-xs-center">
+          <h2>Our Works</h2>
+          <p style="text-align: center; margin-bottom: 30px; font-size: 16px;">Explore our portfolio of recent projects and see how we've helped businesses transform their digital presence.</p>
+        </div>
+      </div>
+
+      <!-- Websites Section -->
+      <div class="col-md-12">
+        <h3 style="margin-bottom: 30px; color: #0297FF; font-weight: 600; text-align: center;">Websites</h3>
+      </div>
+
+      <!-- ADD NEW WEBSITE HERE -->
+      <!-- To add a new website, copy the block below and paste it right after the END OF WEBSITE BLOCK -->
+      <div class="col-md-4 blog-box">
+        <div class="blog-image-block"> <img src="img/vinayaka_caterings.png" alt="" class="img-fluid" style="width: 100%; height: 250px; object-fit: cover;"> </div>
+        <h3 class="blog-title" style="margin-top: 15px;"><a href="https://shrivinayakacaterings.in">Shri Vinayaka Caterings</a></h3>
+        <p class="blog-content"><a href="https://shrivinayakacaterings.in/" target="_blank" style="color: #0297FF; font-weight: 600;">Visit Website <i class="fa fa-external-link"></i></a></p>
+      </div>
+      <!-- END OF WEBSITE BLOCK -->
+
+      <div class="col-md-4 blog-box">
+        <div class="blog-image-block"> <img src="img/schedule-it.png" alt="" class="img-fluid" style="width: 100%; height: 250px; object-fit: cover;"> </div>
+        <h3 class="blog-title" style="margin-top: 15px;"><a href="https://www.schedule-it.in">Schedule IT</a></h3>
+        <p class="blog-content"><a href="https://www.schedule-it.in" target="_blank" style="color: #0297FF; font-weight: 600;">Visit Website <i class="fa fa-external-link"></i></a></p>
+      </div>
+
+      <!-- Portfolios Section -->
+      <div class="col-md-12" style="margin-top: 60px;">
+        <h3 style="margin-bottom: 30px; color: #0297FF; font-weight: 600; text-align: center;">Portfolios</h3>
+      </div>
+
+      <!-- ADD NEW PORTFOLIO HERE -->
+      <!-- To add a new portfolio, copy the block below and paste it right after the END OF PORTFOLIO BLOCK -->
+      <div class="col-md-4 blog-box">
+        <div class="blog-image-block"> <img src="img/Deeparao.png" alt="" class="img-fluid" style="width: 100%; height: 250px; object-fit: cover;"> </div>
+        <h3 class="blog-title" style="margin-top: 15px;"><a href="https://deeparao.online">Deepa Rao</a></h3>
+        <p class="blog-content"><a href="https://deeparao.online" target="_blank" style="color: #0297FF; font-weight: 600;">View Portfolio <i class="fa fa-external-link"></i></a></p>
+      </div>
+
+      <div class="col-md-4 blog-box">
+        <div class="blog-image-block"> <img src="img/drsheelar.png" alt="" class="img-fluid" style="width: 100%; height: 250px; object-fit: cover;"> </div>
+        <h3 class="blog-title" style="margin-top: 15px;"><a href="https://www.drsheelar.in">Dr Sheela R</a></h3>
+        <p class="blog-content"><a href="https://www.drsheelar.in" target="_blank" style="color: #0297FF; font-weight: 600;">Visit Website <i class="fa fa-external-link"></i></a></p>
+      </div>
+
+      <div class="col-md-4 blog-box">
+        <div class="blog-image-block"> <img src="img/srishaps.png" alt="" class="img-fluid" style="width: 100%; height: 250px; object-fit: cover;"> </div>
+        <h3 class="blog-title" style="margin-top: 15px;"><a href="https://srishaps.in">Srisha PS</a></h3>
+        <p class="blog-content"><a href="https://srishaps.in" target="_blank" style="color: #0297FF; font-weight: 600;">Visit Website <i class="fa fa-external-link"></i></a></p>
+      </div>
+
+      <div class="col-md-4 blog-box">
+        <div class="blog-image-block"> <img src="img/shripathibhat.png" alt="" class="img-fluid" style="width: 100%; height: 250px; object-fit: cover;"> </div>
+        <h3 class="blog-title" style="margin-top: 15px;"><a href="https://shripathibhat.in">Shripathi Bhat</a></h3>
+        <p class="blog-content"><a href="https://shripathibhat.in" target="_blank" style="color: #0297FF; font-weight: 600;">Visit Website <i class="fa fa-external-link"></i></a></p>
+      </div>
+      <!-- END OF PORTFOLIO BLOCK -->
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION ================================================== -->
+<section class="new-contact-sec" id="contact" style="padding: 60px 0;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="heading text-md-center text-xs-center">
+          <h2 style="font-weight: 700;">Let's discuss your Project</h2>
+          <p style="text-align: center; margin-bottom: 30px; font-size: 16px; color: #6c757d;">I am open to discussing consulting opportunities, IT strategy advisory roles, and exciting projects. Let's connect!</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <form onsubmit="sendToWhatsApp(event)" style="margin-top: 20px;">
+          <div class="row">
+            <div class="col-md-12 mb-3">
+              <input type="text" id="name" class="form-control contact-input" placeholder="Name*" required>
+            </div>
+            <div class="col-md-12 mb-3">
+              <input type="email" id="email" class="form-control contact-input" placeholder="Email*" required>
+            </div>
+            <div class="col-md-12 mb-3">
+              <input type="text" id="location" class="form-control contact-input" placeholder="Location*" required>
+            </div>
+            <div class="col-md-6 mb-3">
+              <input type="text" id="budget" class="form-control contact-input" placeholder="Budget*" required>
+            </div>
+            <div class="col-md-6 mb-3">
+              <input type="text" id="subject" class="form-control contact-input" placeholder="Subject*" required>
+            </div>
+            <div class="col-md-12 mb-4">
+              <textarea id="message" class="form-control contact-input" placeholder="Message*" rows="3" required></textarea>
+            </div>
+            <div class="col-md-12">
+              <button type="submit" class="btn btn-primary" style="background-color: #3b82f6; border-color: #3b82f6; padding: 10px 30px; border-radius: 5px; font-weight: 600;">Submit <i class="fa fa-paper-plane-o" style="margin-left: 5px;"></i></button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="support">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 col-sm-4">
+        <ul>
+          <li><a href="#myCarousel">Home</a></li>
+          <li><a href="#benefits">Services</a></li>
+          <li><a href="#about">Who We Are</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-sm-4">
+        <ul>
+          <li><a href="#works">Our Works</a></li>
+          <li><a href="#support">Support</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-sm-4">
+        <ul></ul>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <h2>SK Web Labs</h2>
+        <p>Design • Develop • Deploy. Your One-Stop Solution for Website Development, Deployment, and SEO Optimization. Visit us at skweblabs.in.</p>
+        <p><strong>Contact:</strong> +91 7022183067 | +91 7022183067</p>
+      </div>
+    </div>
+    <div class="row copy-footer">
+      <div class="col-sm-6 col-md-6"> &copy;<script type="text/javascript">document.write(new Date().getFullYear());</script> <a target="_blank" href="https://skweblabs.in/">SK Web Labs</a> </div>
+      <div class="col-sm-6 col-md-6 pull-right text-xs-right">Created with <i class="fa fa-heart"></i> by SK Web Labs</div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap core JavaScript ================================================== -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scrollPosStyler.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/isotope.min.js"></script>
+<script src="js/nivo-lightbox.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/core.js"></script>
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+<script>
+function sendToWhatsApp(event) {
+    event.preventDefault();
+    const name = encodeURIComponent(document.getElementById('name').value);
+    const email = encodeURIComponent(document.getElementById('email').value);
+    const location = encodeURIComponent(document.getElementById('location').value);
+    const budget = encodeURIComponent(document.getElementById('budget').value);
+    const subject = encodeURIComponent(document.getElementById('subject').value);
+    const message = encodeURIComponent(document.getElementById('message').value);
+
+    const whatsappNumber = "917022183067";
+    const text = `*New Project Inquiry*%0A%0A*Name:* ${name}%0A*Email:* ${email}%0A*Location:* ${location}%0A*Budget:* ${budget}%0A*Subject:* ${subject}%0A*Message:* ${message}`;
+    const url = `https://wa.me/${whatsappNumber}?text=${text}`;
+    window.open(url, '_blank');
+}
+</script>
+
+</body>
+</html>
