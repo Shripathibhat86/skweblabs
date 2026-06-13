@@ -160,9 +160,25 @@ section {
 	margin: 0
 }
 
-.top-bar .navbar-collapse.show .navbar-nav .nav-item {
-	background: rgb(12,36,46);
+@media (min-width: 768px) {
+    .top-bar .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .top-bar .navbar-collapse {
+        flex-grow: 1;
+        display: flex !important;
+        align-items: center;
+    }
+    .top-bar .navbar-nav {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
 }
+
+/* Removed conflicting dark background on mobile nav-items */
 .top-bar .nav-link:hover, .top-bar .nav-item.active a {
 	color: #fff;
 	border-bottom: 2px solid #fff;

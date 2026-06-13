@@ -25,56 +25,58 @@
 
 <style>
 /* ===== NAVBAR MOBILE FIX ===== */
-.navbar > .container,
-.navbar > .container-fluid {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-  -ms-flex-wrap: wrap !important;
-  flex-wrap: wrap !important;
-  -webkit-box-pack: start !important;
-  -ms-flex-pack: start !important;
-  justify-content: flex-start !important;
-  -webkit-box-align: center !important;
-  -ms-flex-align: center !important;
-  align-items: center !important;
-}
+@media (max-width: 767px) {
+  .navbar > .container,
+  .navbar > .container-fluid {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+    -webkit-box-pack: start !important;
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+  }
 
-.navbar-toggler {
-  -webkit-box-ordinal-group: 2 !important;
-  -ms-flex-order: 1 !important;
-  order: 1 !important;
-  margin-right: 10px !important;
-  margin-left: 0 !important;
-  position: static !important;
-  float: none !important;
-}
+  .navbar-toggler {
+    -webkit-box-ordinal-group: 2 !important;
+    -ms-flex-order: 1 !important;
+    order: 1 !important;
+    margin-right: 10px !important;
+    margin-left: 0 !important;
+    position: static !important;
+    float: none !important;
+  }
 
-.navbar-brand {
-  -webkit-box-ordinal-group: 3 !important;
-  -ms-flex-order: 2 !important;
-  order: 2 !important;
-  margin-left: 0 !important;
-  margin-right: auto !important;
-  float: none !important;
-  position: static !important;
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-  -webkit-box-align: center !important;
-  -ms-flex-align: center !important;
-  align-items: center !important;
-}
+  .navbar-brand {
+    -webkit-box-ordinal-group: 3 !important;
+    -ms-flex-order: 2 !important;
+    order: 2 !important;
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    float: none !important;
+    position: static !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+  }
 
-.navbar-collapse {
-  -webkit-box-ordinal-group: 4 !important;
-  -ms-flex-order: 3 !important;
-  order: 3 !important;
-  width: 100% !important;
-  -ms-flex-preferred-size: 100% !important;
-  flex-basis: 100% !important;
+  .navbar-collapse {
+    -webkit-box-ordinal-group: 4 !important;
+    -ms-flex-order: 3 !important;
+    order: 3 !important;
+    width: 100% !important;
+    -ms-flex-preferred-size: 100% !important;
+    flex-basis: 100% !important;
+  }
 }
 
 /* ===== CONTACT FORM STYLES ===== */
@@ -112,7 +114,7 @@
       <i class="fa fa-bars"></i>
     </button>
     <a class="navbar-brand" href="#" style="padding-top: 0; padding-bottom: 0; display: flex; align-items: center;">
-     <img src="img/SK WEB LAB Logo.png" alt="SK Web Labs" style="height: 40px; width: auto; margin-top: 0px; margin-left: 130	px;">
+     <img src="img/SK WEB LAB Logo.png" alt="SK Web Labs" style="height: 40px; width: auto; margin-top: px; margin-left: 130	px;">
     </a>
     <div class="collapse navbar-collapse" id="navbarCollapse1">
       <ul class="navbar-nav ml-auto">
